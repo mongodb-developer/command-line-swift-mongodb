@@ -1,5 +1,6 @@
 #!/bin/sh
 # mlynn recreate basic env
+#
 echo "Enter project name: \c"
 read PROJ
 swift package init --name ${PROJ}
